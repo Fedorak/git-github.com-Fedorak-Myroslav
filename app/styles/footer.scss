@@ -1,0 +1,57 @@
+.footer {
+    background-image: url('/images/background/footer.png');
+    width: 100%;
+    padding: 3rem 0;
+
+    img {
+        width: 17rem;
+    }
+
+    &__contact-info {
+        span {
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            color: #fff;
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+
+    &__feedback {
+        input {
+            padding: 0.5rem;
+            color: #606060;
+            background: #B5B5B5;
+        }
+
+        textarea {
+            padding: 0.5rem;
+            color: #606060;
+            background: #B5B5B5;
+        }
+    }
+}
+
+.footer__button {
+    background-color: #E95A00;
+    padding: 0.4rem 3rem;
+    color: #fff;
+    border-radius: 3.1rem;
+    border: 2px solid #E95A00;
+
+    &:hover {
+        border: 2px solid #E95A00;
+        background-color: #fff;
+        color: #E95A00;
+        text-decoration: none;
+    }
+
+}

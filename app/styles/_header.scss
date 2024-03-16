@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    padding: 1.25rem 0;
+    background-color: #000;
+
+    &__logo {
+       img{
+        width: 9rem;
+       }
+    }
+}
