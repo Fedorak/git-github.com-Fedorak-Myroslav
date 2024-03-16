@@ -88,6 +88,10 @@
         background: #ECECEC;
         padding: 3rem 0;
 
+        .book-title{
+            font-size: 3.5rem;
+        }
+
         .book-left {
             width: 100%;
             max-width: 35rem;
@@ -127,15 +131,24 @@
     &__slider {
         background: #000;
 
+        P {
+            color: #fff;
+            font-size: 2rem;
+        }
+
         .slider-top {
 
             span {
                 color: #fff;
+                font-size: 2rem;
             }
 
             h1 {
+                font-size: 3.5rem;
                 color: #fff;
             }
+
+
         }
     }
 }
