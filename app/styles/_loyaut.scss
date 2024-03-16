@@ -166,6 +166,10 @@
 
 // Slider
 
+.swiper {
+    position: unset !important;
+}
+
 .swiper-wrapper {
     z-index: 10;
 
@@ -178,10 +182,12 @@
     z-index: 999;
     position: absolute;
     color: #fff;
+    left: -5rem;
 }
 
 .swiper-button-next {
     z-index: 999;
     position: absolute;
     color: #fff;
+    right: -5rem;
 }
